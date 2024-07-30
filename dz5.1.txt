@@ -1,0 +1,10 @@
+function pow(a, b) {
+  let result = a;
+  for (let i = 1; i < b; i++) {
+    result = result * a;
+  }
+  return result;
+} pow(5, 3)
+
+
+Результатом буде 125
