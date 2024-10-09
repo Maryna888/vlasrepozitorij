@@ -1,0 +1,16 @@
+var phone = {
+    name: "iphone",
+    OS: "ios",
+    memory: 128,
+    displayS: 6,
+getdisplaySize() {
+        return phone.displayS;
+    },
+    setdisplaySize(size){
+        phone.displayS = size;
+    }
+}
+
+console.log(phone.displayS);
+phone.displayS = 10;
+console.log(phone.displayS);
